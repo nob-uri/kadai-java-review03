@@ -13,22 +13,6 @@ public class BaseBallTeam {
         this.draw = draw;
     }
     
-    public void setName(String name) {
-        this.name = name;
-    }
-    
-    public void setWin(int win) {
-        this.win = win;
-    }
-    
-    public void setLose(int lose) {
-        this.lose = lose;
-    }
-    
-    public void setDraw(int draw) {
-        this.draw = draw;
-    }
-    
     public double getRate() {
         if (win + lose == 0) {
             return 0.0;
